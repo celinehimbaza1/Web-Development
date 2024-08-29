@@ -13,7 +13,7 @@ br {
 .kfw {
 	padding: 0;
 	margin: 0;
-	height: 50%;
+	height: 80%;
 	width: 100%;
 	position: relative;
 	background-image: url("./img/Loan.png");
@@ -21,7 +21,7 @@ br {
 	background-size: cover;
 	background-position: center;
 	color: white;
-	min-height: 300px; /* Adjust this value as needed */
+	min-height: 400px; /* Adjust this value as needed */
 }
 
 .headerMenu {
@@ -52,7 +52,19 @@ br {
 	padding: 5px 15px 5px 15px;
 	font-size: 14px;
 	border-radius: 4px;
+} 
+.login2{
+
+
+	
+	
 }
+.login1{
+	display: flex;
+	margin: 40px;
+}
+
+
 .login:hover {
 	font-size: 15px;
 }
