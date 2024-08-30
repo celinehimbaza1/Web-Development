@@ -53,22 +53,22 @@ br {
 	font-size: 14px;
 	border-radius: 4px;
 } 
-.login2{
 
-
-	
-	
-}
-.login1{
-	display: flex;
-	margin: 40px;
-}
 
 
 .login:hover {
-	font-size: 15px;
+	background-color: rgb(231, 100, 43);
+	margin-top: 50px;
+	
 }
-.application {
+.downwords{
+	display: flex;
+	margin-left: 35px;
+	margin-top: 70px;
+}
+
+.works p{
+	margin-top: 1px;
 }
 
 .content {
@@ -84,4 +84,29 @@ br {
 .enhance p{
   font-size: 12px;
   color: aliceblue;
+}
+
+.service{
+	text-align: center;
+	font-size: 1.7rem;
+	color: darkgreen;
+	font-weight: bold;
+}
+
+.servicesContent{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.service1{
+
+	background-color: aqua;
+	border-color:  rgb(146, 89, 13);
+	border-radius: 30px;
+}
+.service1 img{
+	margin-left: 2rem;
+	padding: 30px;
+	width: 100px;
+	height: 100px;
 }
