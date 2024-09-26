@@ -1,0 +1,107 @@
+.box {
+  font-size: 14px;
+  background-color: aqua;
+  height: 200px;
+  width: 300px;
+  border-radius:1px #ddd;
+  border-style: solid;
+  transition:  width 5s,  height 5s,  background-color 5s  rotate 5s;
+  -webkit-border-radius:1px #ddd;
+  -moz-border-radius:1px #ddd;
+  -ms-border-radius:1px #ddd;
+  -o-border-radius:1px #ddd;
+  -webkit-transition:  width 5s,  height 5s,  background-color 5s  rotate 5s;
+  -moz-transition:  width 5s,  height 5s,  background-color 5s  rotate 5s;
+  -ms-transition:  width 5s,  height 5s,  background-color 5s  rotate 5s;
+  -o-transition:  width 5s,  height 5s,  background-color 5s  rotate 5s;
+}
+
+.box:hover {
+	background-color: rgb(243, 117, 27);
+  width: 200px;
+  height: 200px;
+  rotate: 270deg;
+}
+nav{
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 35%;
+}
+
+a{
+  flex:.1;
+  background-color: #333;
+  color: white;
+  border: 1px solid #ddd;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+  transition: all 4s linear;
+  -webkit-transition: all 4s linear;
+  -moz-transition: all 4s linear;
+  -ms-transition: all 4s linear;
+  -o-transition: all 4s linear;
+}
+
+a:hover, 
+a:focus{
+  background-color: #fff;
+  color: #333;
+
+
+}
+
+p, .image1{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+.image2{
+  animation: 3s;
+  animation-name: slidein2;
+  animation-timing-function: cubic-bezier(13,34,2,4);
+  animation-delay: 2s;
+  animation-direction:normal
+ 
+}
+@keyframes slidein {
+  from{
+    translate: 150vw;
+    scale: 200%;
+
+
+  }
+
+  to{
+    translate: 0 0;
+    scale: 50%;
+
+  }
+  
+}
+
+ .image2{
+  animation-duration: 3s;
+  animation-name: slidein2;
+}
+
+@keyframes slidein2 {
+  from{
+    translate: 150vw;
+    scale: 200%;
+
+
+  }
+
+  to{
+    translate: 0 0;
+    scale: 100%;
+
+  }
+  
+}
+
+.mask1{
+  -webkit-mask-image: url("./png-transparent-c-logo-c-programming-language-icon-letter-c-blue-logo-computer-program-thumbnail.png");
+  mask-image: url("./png-transparent-c-logo-c-programming-language-icon-letter-c-blue-logo-computer-program-thumbnail.png")
+}
