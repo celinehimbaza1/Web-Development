@@ -33,3 +33,75 @@ section div:hover
 {
   font-size: 17px;
 }
+body{
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.logo{
+    padding-left: 70px;
+    padding-top: 7px;
+}
+.content{
+background-image: url(../Portofolio/img/try.jpg);
+background-repeat: no-repeat;
+ background-size: cover;
+    min-height: 600px;
+    object-fit: cover;
+    opacity: 15;
+}
+.menu,nav,ul,li,a{
+    text-decoration: none;
+    display: flex;   
+}
+nav,ul,li,a{
+   text-indent: 10px;
+   padding-left: 55px;
+   color:rgb(71, 71, 71);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+}
+.social{
+    padding-left: 290px;
+    padding-top: 10px;
+}
+
+.intro,h2{
+    padding-top: 40px;
+    padding-left: 2.5rem;
+    color: rgb(238, 132, 57);
+}
+.paragraph,pr,p{
+     padding-left: 2.5rem;
+     color: black;
+    font-size: 20px;
+ font-weight: 350;
+
+} 
+.paragraph{
+display: flex;
+}
+.create{
+background-color: rgb(35, 121, 35);
+color: rgb(247, 243, 243);
+font-size: 22px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border-radius: 60px;
+padding: 5px 10px 5px 10px;
+}
+.creat2{
+background-color: rgb(35, 121, 35);
+color: rgb(247, 243, 243);
+font-size: 22px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border-radius: 60px;
+padding: 5px 10px 5px 10px;
+}
+.creat{
+padding-left: 18rem;
+padding-top:8rem; 
+font-style: oblique;
+font-size: 20px;
+
+}
