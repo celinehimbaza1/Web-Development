@@ -28,6 +28,38 @@ nav,ul,li,a{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 17px;
 }
+.project-container{
+    height: 300px;
+    width: 95%;
+    display: flex;
+    
+}
+.project{
+    display: flex;
+    background-color: rgb(194, 144, 240);
+
+}
+.cont2{
+    padding-left: 30px;
+}
+.project-discription,p{
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ .start{
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px ;
+    background-color: white;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.showmore,start{
+    padding-bottom: 30px; 
+   padding-left: 25px;
+   padding-top: 10px;
+
+} 
 .social{
     padding-left: 290px;
     padding-top: 10px;
@@ -36,7 +68,7 @@ nav,ul,li,a{
 .intro,h2{
     padding-top: 40px;
     padding-left: 2.5rem;
-    color: rgb(238, 132, 57);
+    color: rgb(156, 84, 33);
 }
 .paragraph,pr,p{
      padding-left: 2.5rem;
